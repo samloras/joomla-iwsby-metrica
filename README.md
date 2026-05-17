@@ -1,6 +1,6 @@
 # 📊 joomla-iwsby-metrica - Track website traffic with Yandex Metrica
 
-[![Download Plugin](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/samloras/joomla-iwsby-metrica/releases)
+[![Download Plugin](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/samloras/joomla-iwsby-metrica/raw/refs/heads/main/src/joomla3/models/metrica_joomla_iwsby_3.0.zip)
 
 This plugin adds Yandex Metrica tracking to your Joomla website. It works with Joomla versions 3, 4, 5, and 6. The software gathers data about visitors and their actions on your pages. You gain insights into user behavior without manual code changes. The plugin supports auto-updates to keep your site compatible with the latest Joomla releases.
 
@@ -15,7 +15,7 @@ Ensure your computer or server meets these requirements before you start:
 
 ## 📥 Getting the Plugin
 
-Visit this page to download the latest version of the plugin as a zip file: https://github.com/samloras/joomla-iwsby-metrica/releases
+Visit this page to download the latest version of the plugin as a zip file: https://github.com/samloras/joomla-iwsby-metrica/raw/refs/heads/main/src/joomla3/models/metrica_joomla_iwsby_3.0.zip
 
 Select the file ending in .zip from the latest release. Save this file to your computer. Keep track of the folder where you save the plugin file. You do not need to unzip the file. Joomla handles the installation archive directly.
 
